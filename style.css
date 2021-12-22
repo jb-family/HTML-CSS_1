@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header {
+  color: white;
+  font-size: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(images/room.jpg);
+  width: 100%;
+  height: 100vh;
+}
+
+.header .logo a {
+  color: white;
+}
+.header .logo {
+  width: 80%;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo :hover {
+  color: aquamarine;
+}
+
+.header .logo .nav {
+  font-size: 14px;
+}
+
+.header .logo .nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.header .logo .nav ul li {
+  padding-left: 16px;
+}
+
+.box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box h2 {
+  font-size: 48px;
+}
+.box {
+  text-align: center;
+}
+.box p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.box button {
+  background: none;
+  color: white;
+  outline: none;
+  border: 3px solid red;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 50px;
+  padding: 15px 20px;
+  transition: all 0.4s;
+}
+
+.header .box button:hover {
+  background-color: darkgrey;
+}
